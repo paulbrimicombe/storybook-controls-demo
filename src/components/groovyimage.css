@@ -1,0 +1,61 @@
+div.groovy-image::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  width: inherit;
+  height: inherit;
+  max-width: inherit;
+  max-height: inherit;
+  z-index: 100;
+  mix-blend-mode: screen;
+  animation: groovy-colour-change 5s infinite;
+  aspect-ratio: inherit;
+  pointer-events: none;
+}
+
+div.groovy-image {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+@keyframes groovy-colour-change {
+  0% {
+    background-color: transparent;
+  }
+
+  15% {
+    background-color: transparent;
+  }
+
+  25% {
+    background-color: red;
+  }
+
+  40% {
+    background-color: red;
+  }
+
+  50% {
+    background-color: green;
+  }
+
+  65% {
+    background-color: green;
+  }
+
+  75% {
+    background-color: blue;
+  }
+
+  90% {
+    background-color: blue;
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}

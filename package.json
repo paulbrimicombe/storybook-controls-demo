@@ -1,0 +1,35 @@
+{
+  "name": "storybook-controls-dts",
+  "version": "1.0.0",
+  "description": "An example of how to auto-generate Storybook controls from TypeScript d.ts definition files",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo '😢  No tests'",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "Paul Brimicombe",
+  "license": "MIT",
+  "dependencies": {
+    "@mdx-js/react": "^2.1.3",
+    "@storybook/addon-docs": "^6.5.11",
+    "@storybook/api": "^6.5.11",
+    "@storybook/react": "^6.5.11",
+    "babel-loader": "^8.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.8.3",
+    "webpack": "^5.74.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@storybook/addon-actions": "^6.5.11",
+    "@storybook/addon-essentials": "^6.5.11",
+    "@storybook/addon-interactions": "^6.5.11",
+    "@storybook/addon-links": "^6.5.11",
+    "@storybook/builder-webpack5": "^6.5.11",
+    "@storybook/manager-webpack5": "^6.5.11",
+    "@storybook/testing-library": "^0.0.13"
+  }
+}
