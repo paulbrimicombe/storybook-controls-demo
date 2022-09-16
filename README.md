@@ -2,6 +2,8 @@
 
 This project demonstrates how to autogenerate [Storybook](https://storybook.js.org/) [Controls](https://storybook.js.org/docs/react/essentials/controls) from either [`JSDoc`](https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html) comments or [TypeScript `.d.ts` files](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html).
 
+> **:warning: Important Note:** This is a demo project — these React components are not intended to be used by anyone or be examples of good practice in developing React components.
+
 ## TL;DR How do I get this auto-generation to work?
 
 - Add a `typescript` property to your `.storybook/main.cjs` or `.storybook/main.js` file that tells Storybook to use `react-docgen-typescript` and to parse `.jsx` files with TypeScript (see the [TypeScript Storybook docs](https://storybook.js.org/docs/react/configure/typescript)):
