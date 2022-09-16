@@ -42,7 +42,8 @@ Using the `JSDoc` `@type` directive you can import types from external files. Th
 ## Gotchas / limitations
 
 - If you like to use `export default` for your React components, you'll have to add an additional named export. This allows `react-docgen-typescript` to work out the name of your component and match it to the correct stories.
-- Just adding `JSDoc` comments or referencing `.d.ts` files doesn't give you any build time or runtime type checking of the parameters. You can, however, [type check your JavaScript files using TypeScript](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html).
+- Default arguments are extracted from the JavaScript source code, not the `JSDoc` comments.
+- Adding `JSDoc` comments or referencing `.d.ts` files gives no build time or runtime type checking of the parameters. You can, however, [type check your JavaScript files using TypeScript](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html).
 
 ## How can I run this example project?
 
